@@ -86,7 +86,6 @@ class generate_time_table(osv.osv_memory):
         for self_obj in self.browse(cr, uid, ids, context=context):
             st_date = datetime.datetime.strptime(self_obj.start_date,'%Y-%m-%d')
             en_date = datetime.datetime.strptime(self_obj.end_date,'%Y-%m-%d')
-            print st_date,en_date
             st_day = week_number[st_date.strftime('%a')]
             for line in self_obj.time_table_lines:
                 if int(line.day) == st_day:
