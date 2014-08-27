@@ -1,0 +1,4203 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* openeducat_erp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-28 11:41+0000\n"
+"PO-Revision-Date: 2013-09-28 11:41+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_placement_offer_view
+#: model:ir.model,name:openeducat_erp.model_op_placement_offer
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_placement_offer
+#: view:op.placement.offer:0
+#: view:op.student:0
+msgid "Placement Offer"
+msgstr "实习安排"
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: field:op.book,internal_code:0
+msgid "Internal ID"
+msgstr "内部ID"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+#: view:op.student:0
+#: view:op.timetable:0
+msgid "Standard:"
+msgstr "标准："
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,title:0
+#: view:op.book:0
+#: field:op.book,name:0
+#: field:op.book.purchase,name:0
+#: view:op.faculty:0
+#: view:op.student:0
+msgid "Title"
+msgstr "标题"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Stop Detail"
+msgstr "停止了"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_result_line_view
+#: view:op.result.line:0
+msgid "Result Line"
+msgstr "结果行"
+
+#. module: openeducat_erp
+#: field:op.faculty,emergency_contact:0
+#: field:op.student,emergency_contact:0
+msgid "Emergency Contact"
+msgstr "紧急联络"
+
+#. module: openeducat_erp
+#: field:op.health,physical_challenges:0
+msgid "Physical Challenge?"
+msgstr "是否有过敏史?"
+
+#. module: openeducat_erp
+#: view:op.parent:0
+msgid "User Id"
+msgstr "用户ID"
+
+#. module: openeducat_erp
+#: field:res.users,parent_ids:0
+msgid "Parents"
+msgstr "家长"
+
+#. module: openeducat_erp
+#: field:op.asset,asset_id:0
+#: field:op.classroom,asset_line:0
+msgid "Asset"
+msgstr "资产"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_achievement_type_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_achievement_type_sub
+#: view:op.achievement:0
+#: field:op.achievement,achievement_type:0
+#: view:op.achievement.type:0
+msgid "Achievement Type"
+msgstr "成果类型"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_scholarship_type
+msgid "op.scholarship.type"
+msgstr "op.scholarship.type"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "Subject:"
+msgstr "主题："
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_result_line_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_result_line_sub_faculty
+#: field:op.result.exam.line,result_lines:0
+msgid "Result Lines"
+msgstr "结果行"
+
+#. module: openeducat_erp
+#: field:op.library.card,allow_book:0
+msgid "No. Of Book Allow"
+msgstr "号书允许"
+
+#. module: openeducat_erp
+#: selection:op.exam,state:0
+msgid "Scheduled"
+msgstr "预定的"
+
+#. module: openeducat_erp
+#: view:student.migrate:0
+msgid "Student Migrate"
+msgstr "学生迁移"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_student_migrate
+msgid "Student Migratation"
+msgstr "学生的迁移"
+
+#. module: openeducat_erp
+#: field:op.health.line,name:0
+msgid "Checkup Detail"
+msgstr "检查的细节"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_parent_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_parent_main_parent
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_parent_root
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_parent_sub_parent
+#: view:op.parent:0
+#: view:op.student:0
+#: field:op.student,parent_ids:0
+#: model:res.groups,name:openeducat_erp.group_op_parent
+msgid "Parent"
+msgstr "家长"
+
+#. module: openeducat_erp
+#: field:admission.analysis,standard_id:0
+#: field:generate.time.table,standard_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_standard_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_standard_sub
+#: view:op.admission:0
+#: field:op.admission,standard_id:0
+#: field:op.all.student,standard_id:0
+#: field:op.allocat.division,standard_id:0
+#: view:op.assignment:0
+#: field:op.assignment,standard_id:0
+#: view:op.attendance.line:0
+#: field:op.attendance.line,standard_id:0
+#: view:op.attendance.register:0
+#: field:op.attendance.register,standard_id:0
+#: field:op.classroom,standard_id:0
+#: view:op.exam:0
+#: view:op.exam.room:0
+#: field:op.exam.session,standard_id:0
+#: field:op.result.template.line,standard_id:0
+#: view:op.roll.number:0
+#: field:op.roll.number,standard_id:0
+#: view:op.standard:0
+#: view:op.student:0
+#: field:op.student,standard_id:0
+#: view:op.timetable:0
+#: field:op.timetable,standard_id:0
+#: report:op.transport.detail.report:0
+#: field:time.table.report,standard_id:0
+msgid "Standard"
+msgstr "标准"
+
+#. module: openeducat_erp
+#: help:op.library.card.type,duration:0
+msgid "Duration in terms of Number of Lead Days"
+msgstr "在铅数天的持续时间"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_author_sub
+#: view:op.book:0
+msgid "Authors"
+msgstr "作者"
+
+#. module: openeducat_erp
+#: view:generate.time.table:0
+msgid "Generate time Table"
+msgstr "产生时间表"
+
+#. module: openeducat_erp
+#: field:gen.time.table.line,day:0
+msgid "Day"
+msgstr "天"
+
+#. module: openeducat_erp
+#: view:op.placement.offer:0
+#: field:op.placement.offer,name:0
+msgid "Company Name"
+msgstr "公司名称"
+
+#. module: openeducat_erp
+#: view:op.exam.session:0
+msgid "exam Session"
+msgstr "考试期间"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Physical Challenges"
+msgstr "物理的挑战"
+
+#. module: openeducat_erp
+#: report:op.exam.student.lable:0
+msgid "Roll No :"
+msgstr "学号:"
+
+#. module: openeducat_erp
+#: field:op.faculty,timetable_ids:0
+msgid "Time table"
+msgstr "时刻表"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_vehicle_sub
+msgid "Vehicles"
+msgstr "车辆"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_library_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_main_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_student_sub
+msgid "Book Request"
+msgstr "本书的要求"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_activity
+msgid "op.activity"
+msgstr "op.activity"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_exam_attendees
+msgid "op.exam.attendees"
+msgstr "op.exam.attendees"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_exam
+msgid "op.exam"
+msgstr "op.exam"
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: report:op.book.barcode:0
+msgid "Book Detail"
+msgstr "本书详细地介绍了"
+
+#. module: openeducat_erp
+#: view:op.scholarship.type:0
+#: field:op.scholarship.type,amount:0
+msgid "Amount"
+msgstr "量"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Obtained Marks"
+msgstr "得到的分数"
+
+#. module: openeducat_erp
+#: field:exam.seat.arrange,exam_session_ids:0
+msgid "Select Section"
+msgstr "选择截面"
+
+#. module: openeducat_erp
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,total_failed:0
+msgid "Total Fail"
+msgstr "总失败"
+
+#. module: openeducat_erp
+#: field:op.admission,gr_no_new:0
+msgid "GR Number new"
+msgstr "新的成绩"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_root
+msgid "Configuration"
+msgstr "配置"
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+msgid "Book Movement Detail"
+msgstr "本书详细的运动"
+
+#. module: openeducat_erp
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,generated_by:0
+msgid "Generated By"
+msgstr "产生的"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_facility_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_facility_sub
+#: view:op.facility:0
+msgid "Facility"
+msgstr "设施"
+
+#. module: openeducat_erp
+#: view:op.book:0
+msgid "Book Name"
+msgstr "本书的名字"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_route
+msgid "op.route"
+msgstr "op.route"
+
+#. module: openeducat_erp
+#: field:admission.analysis,course_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_course_view
+#: view:op.admission:0
+#: field:op.admission,course_id:0
+#: field:op.all.student,course_id:0
+#: field:op.allocat.division,course_id:0
+#: view:op.assignment:0
+#: field:op.assignment,course_id:0
+#: view:op.attendance.line:0
+#: field:op.attendance.line,course_id:0
+#: view:op.attendance.register:0
+#: field:op.attendance.register,course_id:0
+#: view:op.batch:0
+#: field:op.batch,course_id:0
+#: field:op.book,course_ids:0
+#: field:op.book.purchase,course_ids:0
+#: field:op.classroom,course_id:0
+#: view:op.course:0
+#: view:op.exam:0
+#: view:op.exam.room:0
+#: field:op.exam.room,course_ids:0
+#: field:op.exam.room,standard_ids:0
+#: field:op.exam.room,student_ids:0
+#: field:op.exam.session,course_id:0
+#: field:op.result.template.line,course_id:0
+#: view:op.roll.number:0
+#: field:op.roll.number,course_id:0
+#: field:op.standard,course_id:0
+#: view:op.student:0
+#: field:op.student,course_id:0
+#: field:op.subject,course_id:0
+#: report:op.transport.detail.report:0
+#: field:student.migrate,course_id:0
+msgid "Course"
+msgstr "课程"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+msgid "Open Student Profile"
+msgstr "打开学生档案"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_scholarship_type_view
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_tag_view
+#: field:op.book,tag:0
+#: view:op.scholarship.type:0
+#: view:op.tag:0
+msgid "Tag"
+msgstr "标签"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "This is to certify that"
+msgstr "兹证明"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_res_partner
+#: view:op.book.queue:0
+#: field:op.faculty,partner_id:0
+#: field:op.student,partner_id:0
+msgid "Partner"
+msgstr "合作伙伴"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "is / was a bonafide student of this school / collage  studying in Std."
+msgstr "是这所学校\/大学学习的学生一个真实的标准。"
+
+#. module: openeducat_erp
+#: field:time.table.report,state:0
+msgid "Select"
+msgstr "选择"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "O-ve"
+msgstr "o-ve"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_vehicle_view
+#: view:op.transportation:0
+#: field:op.transportation,vehicle_id:0
+#: view:op.vehicle:0
+msgid "Vehicle"
+msgstr "车辆"
+
+#. module: openeducat_erp
+#: field:gen.time.table.line,period_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_student_period_today
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_period_view
+#: model:ir.model,name:openeducat_erp.model_op_period
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_period
+#: view:op.period:0
+#: field:op.timetable,period_id:0
+msgid "Period"
+msgstr "周期"
+
+#. module: openeducat_erp
+#: field:op.faculty,visa_info:0
+#: field:op.student,visa_info:0
+msgid "Visa Info"
+msgstr "签证信息"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,state:0
+#: view:op.assignment:0
+#: field:op.assignment,state:0
+#: view:op.assignment.sub.history:0
+#: field:op.assignment.sub.history,state:0
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,state:0
+#: view:op.book:0
+#: field:op.book,state:0
+#: field:op.book.purchase,state:0
+#: field:op.exam,state:0
+#: field:op.placement.offer,state:0
+#: view:op.scholarship:0
+#: field:op.scholarship,state:0
+#: view:op.student:0
+msgid "State"
+msgstr "状态"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_back_office_root
+#: model:res.groups,name:openeducat_erp.group_op_back_office
+msgid "Back Office"
+msgstr "回到办公室"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_marksheet
+#: report:op.marksheet:0
+msgid "MarkSheet"
+msgstr "成绩单"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+#: field:op.result.line,per:0
+#: field:op.result.line,total_marks:0
+msgid "Percentage"
+msgstr "百分比"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_room_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_room_sub
+#: view:op.exam.room:0
+msgid "Exam Room"
+msgstr "考试室"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_publisher
+msgid "op.publisher"
+msgstr "op.publisher"
+
+#. module: openeducat_erp
+#: selection:issue.book,state:0
+#: selection:op.book,state:0
+#: selection:op.book.movement,state:0
+msgid "Available"
+msgstr "可用"
+
+#. module: openeducat_erp
+#: field:op.admission,prev_course:0
+msgid "Previous Course"
+msgstr "先前的课程"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_admission_analysis
+msgid "admission.analysis"
+msgstr "admission.analysis"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+msgid "Admision Detail"
+msgstr "入学的细节"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Month/ Year Of Passing"
+msgstr "通过\/月"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "Today"
+msgstr "今天"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Assignment Rejected"
+msgstr "分配的拒绝"
+
+#. module: openeducat_erp
+#: selection:generate.roll.number,type:0
+msgid "By Surname"
+msgstr "以姓氏"
+
+#. module: openeducat_erp
+#: view:op.hostel.room:0
+#: field:op.hostel.room,allocated_date:0
+msgid "Allocated Date"
+msgstr "分配日期"
+
+#. module: openeducat_erp
+#: field:op.result.template,result_date:0
+msgid "Result Date"
+msgstr "结果日期"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_publisher_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_sub_publisher_library
+#: field:op.book,publisher_ids:0
+#: field:op.book.purchase,publisher_ids:0
+#: view:op.publisher:0
+#: field:op.publisher,book_ids:0
+msgid "Publisher"
+msgstr "出版商"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Contact Name"
+msgstr "联系人姓名"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "O+ve"
+msgstr "O+ve"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_activity
+msgid "Activity Management"
+msgstr "活动管理"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_pass_status_view
+#: model:ir.model,name:openeducat_erp.model_op_pass_status
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_pass_status
+#: view:op.pass.status:0
+#: field:op.result.template,pass_status_ids:0
+msgid "Pass Status"
+msgstr "通过状态"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "DATE :"
+msgstr "日期："
+
+#. module: openeducat_erp
+#: field:op.placement.offer,training_period:0
+msgid "Training Period"
+msgstr "培训时间"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,last_name:0
+#: view:op.faculty:0
+#: field:op.faculty,last_name:0
+#: view:op.student:0
+#: field:op.student,last_name:0
+msgid "Last Name"
+msgstr "姓"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Communication"
+msgstr "通信"
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Tuesday"
+msgstr "星期二"
+
+#. module: openeducat_erp
+#: selection:op.period,minute:0
+msgid "30"
+msgstr "30"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_exam
+msgid "Exam Management"
+msgstr "考试管理"
+
+#. module: openeducat_erp
+#: view:op.exam.res.allocation:0
+msgid "Session"
+msgstr "会议"
+
+#. module: openeducat_erp
+#: field:op.parent,user_id:0
+#: field:op.student,user_id:0
+msgid "User"
+msgstr "用户"
+
+#. module: openeducat_erp
+#: field:op.facility,hostel_room_id:0
+msgid "hostel_room_id"
+msgstr "hostel_room_id"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_register_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_register_sub_faculty
+msgid "Attendance Registers"
+msgstr "考勤记录"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: field:op.faculty,health_faculty_lines:0
+#: view:op.student:0
+#: field:op.student,health_lines:0
+msgid "Health Detail"
+msgstr "健康细节"
+
+#. module: openeducat_erp
+#: view:op.hostel.room:0
+#: field:op.hostel.room,students_per_room:0
+msgid "Students Per Room"
+msgstr "住宿人数"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_category_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_category_sub
+#: view:op.admission:0
+#: field:op.admission,category_id:0
+#: view:op.category:0
+#: view:op.faculty:0
+#: field:op.faculty,category:0
+#: view:op.student:0
+#: field:op.student,category:0
+msgid "Category"
+msgstr "类别"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_admission_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_adminssion_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_admission_main
+#: view:op.admission:0
+msgid "Admission"
+msgstr "报名办理"
+
+#. module: openeducat_erp
+#: view:op.exam.attendees:0
+msgid "Studen"
+msgstr "学生"
+
+#. module: openeducat_erp
+#: field:op.book.movement,penalty:0
+msgid "Penalty"
+msgstr "处罚"
+
+#. module: openeducat_erp
+#: field:book.request.queue,book_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_book_month
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_book_today
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_faculty_period_today
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_book_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_sub_book_library
+#: field:issue.book,book_id:0
+#: view:op.book:0
+#: view:op.book.movement:0
+#: field:op.book.movement,book_id:0
+#: field:op.book.queue,book_ids:0
+#: field:return.book,book_id:0
+msgid "Book"
+msgstr "本书"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_health_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_health
+#: view:op.health:0
+#: field:op.health.line,health_id:0
+msgid "Health"
+msgstr "健康"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_result_exam_line
+msgid "Result Exam Line"
+msgstr "结果考试线"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Subjects Detail"
+msgstr "科目的细节"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_generate_time_table_view
+#: model:ir.model,name:openeducat_erp.model_generate_time_table
+#: model:ir.ui.menu,name:openeducat_erp.menu_generate_time_table
+msgid "Generate Time Table"
+msgstr "产生时间表"
+
+#. module: openeducat_erp
+#: field:issue.book,state:0
+#: view:op.admission:0
+#: field:op.book.movement,state:0
+#: view:op.book.queue:0
+#: field:op.book.queue,state:0
+#: view:op.exam.attendees:0
+#: field:op.exam.attendees,status:0
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,status:0
+#: view:op.result.line:0
+#: field:op.result.line,status:0
+msgid "Status"
+msgstr "现状"
+
+#. module: openeducat_erp
+#: view:op.exam.attendees:0
+msgid "Exam Attendess"
+msgstr "考试attendess"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_attendance_register_view
+#: view:op.attendance.register:0
+msgid "Attendance Register"
+msgstr "签到簿"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_hostel_room
+msgid "op.hostel.room"
+msgstr "op.hostel.room"
+
+#. module: openeducat_erp
+#: field:op.vehicle,partner_id:0
+msgid "Driver"
+msgstr "司机"
+
+#. module: openeducat_erp
+#: field:op.health,eyeglasses:0
+msgid "Eye Glasses?"
+msgstr "是否配带眼镜？"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+msgid "Discription"
+msgstr "描述"
+
+#. module: openeducat_erp
+#: field:exam.seat.arrange,end_time:0
+#: field:op.exam,end_time:0
+#: field:op.exam.session,end_time:0
+#: field:op.transportation,end_time:0
+msgid "End Time"
+msgstr "结束时间"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_facility
+msgid "op.facility"
+msgstr "op.facility"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_library_config
+msgid "Library Configuration"
+msgstr "库配置"
+
+#. module: openeducat_erp
+#: field:op.health,weight:0
+msgid "weight(K.G.)"
+msgstr "重量（公斤）"
+
+#. module: openeducat_erp
+#: view:op.result.template:0
+msgid "Minimum Qualification Criteria"
+msgstr "最低资格标准"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_type_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_type_sub
+#: view:op.exam:0
+#: field:op.exam,exam_type:0
+#: view:op.exam.type:0
+#: report:op.marksheet:0
+msgid "Exam Type"
+msgstr "考试类型"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "B-ve"
+msgstr "b-ve"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Student Name:"
+msgstr "学生姓名："
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: view:op.book.queue:0
+msgid "Request Again"
+msgstr "再一次要求"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "division"
+msgstr "分级"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "A+ve"
+msgstr "A+ve"
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Wednesday"
+msgstr "星期三"
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+msgid "Student/Faculty Detail"
+msgstr "学生\/教师的细节"
+
+#. module: openeducat_erp
+#: view:board.board:0
+#: model:ir.actions.act_window,name:openeducat_erp.open_board_libray
+msgid "Libray Dashboard"
+msgstr "图书馆的仪表板"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Assignments"
+msgstr "作业"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Start Time:"
+msgstr "开始时间："
+
+#. module: openeducat_erp
+#: view:op.health:0
+#: field:op.health,health_line:0
+msgid "Checkup Line"
+msgstr "检查线"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_route_sub
+msgid "Routes"
+msgstr "路线"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Language:"
+msgstr "语言："
+
+#. module: openeducat_erp
+#: field:op.asset,product_uom_qty:0
+msgid "Quantity"
+msgstr "数量"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_res_allocation_main
+msgid "Exams Resource Allocation"
+msgstr "考试资源分配"
+
+#. module: openeducat_erp
+#: view:op.hostel:0
+msgid "Hostel Details"
+msgstr "旅舍的细节"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Health Details"
+msgstr "健康细节"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "B+ve"
+msgstr "B+ve"
+
+#. module: openeducat_erp
+#: selection:op.exam.attendees,status:0
+msgid "Present"
+msgstr "目前的"
+
+#. module: openeducat_erp
+#: field:generate.time.table,time_table_lines:0
+#: field:generate.time.table,time_table_lines_1:0
+#: field:generate.time.table,time_table_lines_2:0
+#: field:generate.time.table,time_table_lines_3:0
+#: field:generate.time.table,time_table_lines_4:0
+#: field:generate.time.table,time_table_lines_5:0
+#: field:generate.time.table,time_table_lines_6:0
+msgid "Time Table Lines"
+msgstr "表时间线"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "blood_group"
+msgstr "blood_group"
+
+#. module: openeducat_erp
+#: field:op.admission,prev_institute:0
+msgid "Previous Institute"
+msgstr "以前的研究所"
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Assignment To Submit"
+msgstr "作业提交"
+
+#. module: openeducat_erp
+#: constraint:student.migrate:0
+msgid "Student is already in this standard."
+msgstr "学生已在本标准。"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Details"
+msgstr "细节"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_student_migrate_view
+msgid "Student Migration"
+msgstr "学生迁移"
+
+#. module: openeducat_erp
+#: view:op.result.template:0
+msgid "Genrate Result"
+msgstr "产生的结果"
+
+#. module: openeducat_erp
+#: view:op.attendance.sheet:0
+#: field:op.attendance.sheet,total_present:0
+msgid "Total Present"
+msgstr "目前总"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_transportation
+msgid "Transportation Detail"
+msgstr "运输的细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_student_hall_ticket
+msgid "student.hall.ticket"
+msgstr "student.hall.ticket"
+
+#. module: openeducat_erp
+#: view:student.attendance:0
+msgid "Student Attendance Report Between These Dates"
+msgstr "学生考勤报告这些日期之间"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+#: selection:op.exam,state:0
+msgid "New Exam"
+msgstr "新的考试"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: view:op.student:0
+msgid "$('.oe_employee_picture').load(function() {\n"
+"								if($(this).width() > $(this).height()) {\n"
+"								$(this).addClass('oe_employee_picture_wide') } });"
+msgstr "$('.oe_employee_picture').load(function() {\n"
+"								if($(this).width() > $(this).height()) {\n"
+"								$(this).addClass('oe_employee_picture_wide') } });"
+
+#. module: openeducat_erp
+#: field:generate.time.table,division_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_division_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_division_sub
+#: field:op.admission,division_id:0
+#: field:op.all.student,division_id:0
+#: field:op.allocat.division,division_id:0
+#: view:op.assignment:0
+#: field:op.assignment,division_id:0
+#: view:op.attendance.line:0
+#: field:op.attendance.line,division_id:0
+#: field:op.attendance.register,division_id:0
+#: view:op.division:0
+#: field:op.exam,division_id:0
+#: field:op.exam.session,division_id:0
+#: field:op.result.template.line,division_id:0
+#: field:op.roll.number,division_id:0
+#: view:op.standard:0
+#: field:op.student,division_id:0
+#: field:op.timetable,division_id:0
+#: field:time.table.report,division_id:0
+msgid "Division"
+msgstr "分级"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_activity_type
+msgid "op.activity.type"
+msgstr "op.activity.type"
+
+#. module: openeducat_erp
+#: selection:op.book.queue,state:0
+msgid "Request"
+msgstr "请求"
+
+#. module: openeducat_erp
+#: selection:op.course,evaluation_type:0
+#: selection:op.exam,evaluation_type:0
+msgid "GPA"
+msgstr "平均分"
+
+#. module: openeducat_erp
+#: field:op.hostel,capacity:0
+msgid "Hostel Capacity"
+msgstr "宿舍容量"
+
+#. module: openeducat_erp
+#: selection:op.result.line,status:0
+msgid "Fail"
+msgstr "失败"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_attendees_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_attendees_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_attendees_sub_faculty
+#: view:op.exam.attendees:0
+msgid "Exam Attendees"
+msgstr "考试参加者"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_min_clearance_criteria_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_min_clearance_criteria
+#: view:op.min.clear.criteria:0
+msgid "Qualification Criteria"
+msgstr "资格标准"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Change Require"
+msgstr "变更要求"
+
+#. module: openeducat_erp
+#: view:op.stop:0
+#: field:op.stop,transport_id:0
+#: view:op.transportation:0
+msgid "Transport"
+msgstr "运输"
+
+#. module: openeducat_erp
+#: selection:issue.book,state:0
+#: selection:op.book,state:0
+#: selection:op.book.movement,state:0
+msgid "Reserved"
+msgstr "保留"
+
+#. module: openeducat_erp
+#: view:exam.seat.arrange:0
+msgid "Generate Exam Seating"
+msgstr "生成考试座位"
+
+#. module: openeducat_erp
+#: view:res.company:0
+#: field:res.company,approval_authority:0
+msgid "Approval Authority"
+msgstr "审批机关"
+
+#. module: openeducat_erp
+#: view:generate.roll.number:0
+msgid "Generate Roll Numbers"
+msgstr "生成学号"
+
+#. module: openeducat_erp
+#: field:op.course,subject_ids:0
+msgid "Subject(s)"
+msgstr "科目(s)"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_hostel_view
+#: view:op.hostel:0
+#: view:op.hostel.room:0
+#: field:op.hostel.room,hostel_id:0
+msgid "Hostel"
+msgstr "宿舍"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_book_movement
+msgid "op.book.movement"
+msgstr "op.book.movement"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.student_attendance_act
+#: view:student.attendance:0
+msgid "Student Attendance"
+msgstr "学生考勤"
+
+#. module: openeducat_erp
+#: view:op.subject:0
+msgid "Subject Details"
+msgstr "科目详情"
+
+#. module: openeducat_erp
+#: field:op.admission,zip:0
+msgid "Zip"
+msgstr "邮编"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_author_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_sub_author_library
+#: view:op.author:0
+#: field:op.book,author_ids:0
+#: field:op.book.purchase,author_ids:0
+msgid "Author"
+msgstr "作者"
+
+#. module: openeducat_erp
+#: field:op.health,major_diseases:0
+msgid "Major Diseases?"
+msgstr "重大疾病?"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Transport Route Detail"
+msgstr "运输路线的细节"
+
+#. module: openeducat_erp
+#: field:op.book.movement,type:0
+#: field:op.book.queue,partner_id:0
+#: field:op.library.card,partner_id:0
+msgid "Student/Faculty"
+msgstr "学生\/教师"
+
+#. module: openeducat_erp
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,marksheet_line:0
+msgid "Marksheets"
+msgstr "marksheets"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_reserve_book
+msgid "reserve.book"
+msgstr "reserve.book"
+
+#. module: openeducat_erp
+#: field:book.request.queue,date_from:0
+#: field:op.book.queue,date_from:0
+#: field:student.attendance,from_date:0
+msgid "From Date"
+msgstr "开始日期"
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Due Book Of Today"
+msgstr "由于今天的书"
+
+#. module: openeducat_erp
+#: view:op.all.student:0
+#: field:op.all.student,student_ids:0
+#: field:op.transportation,student_ids:0
+msgid "Add Student(s)"
+msgstr "添加学生（的）"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_time_table_report_view
+#: model:ir.model,name:openeducat_erp.model_time_table_report
+#: model:ir.ui.menu,name:openeducat_erp.menu_generate_time_table_report
+#: view:time.table.report:0
+msgid "Generate Time Table Report"
+msgstr "生成报告时表"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_faculty_assignment
+msgid "Faculty Assignment"
+msgstr "教师的任务"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+msgid "Finish"
+msgstr "完成"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_movement_sub
+msgid "Book movements"
+msgstr "本书的动作"
+
+#. module: openeducat_erp
+#: field:op.book.movement,reserver_name:0
+msgid "Person Name"
+msgstr "人的名字"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+msgid "Allocation"
+msgstr "配置"
+
+#. module: openeducat_erp
+#: field:op.faculty,last_login:0
+msgid "Latest Connection"
+msgstr "新的连接"
+
+#. module: openeducat_erp
+#: field:op.admission,due_date:0
+msgid "Due Date"
+msgstr "到期日期"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,mobile:0
+msgid "Mobile"
+msgstr "手机"
+
+#. module: openeducat_erp
+#: field:issue.book,issued_date:0
+#: view:op.assignment:0
+#: field:op.assignment,issued_date:0
+#: view:op.book.movement:0
+#: field:op.book.movement,issued_date:0
+msgid "Issued Date"
+msgstr "签发日期"
+
+#. module: openeducat_erp
+#: view:op.attendance.sheet:0
+#: field:op.attendance.sheet,register_id:0
+msgid "Register"
+msgstr "寄存器"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+#: field:op.exam,venue:0
+msgid "Venue"
+msgstr "场地"
+
+#. module: openeducat_erp
+#: report:op.student.report:0
+msgid "DIRECTOR"
+msgstr "导演"
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Period For Today"
+msgstr "今天的时期"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Exam Name:"
+msgstr "考试名称："
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "/ Total Marks"
+msgstr "\/总成绩"
+
+#. module: openeducat_erp
+#: field:op.room,capacity:0
+msgid "Room Capacity"
+msgstr "容量室"
+
+#. module: openeducat_erp
+#: view:op.book:0
+msgid "Book Queue Requests"
+msgstr "本书队列请求"
+
+#. module: openeducat_erp
+#: view:op.health:0
+#: field:op.health,eyeglasses_no:0
+msgid "Eye Glasses"
+msgstr "眼镜"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_achievement_type
+msgid "op.achievement.type"
+msgstr "op.achievement.type"
+
+#. module: openeducat_erp
+#: view:op.hostel.room:0
+msgid "Room Number"
+msgstr "房间号码"
+
+#. module: openeducat_erp
+#: view:admission.analysis:0
+#: model:ir.ui.menu,name:openeducat_erp.menu_admission_analysis
+msgid "Admission Analysis"
+msgstr "招生分析"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_activity_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_activity_sub
+#: view:op.activity:0
+#: view:op.student:0
+#: field:op.student,activity_log:0
+msgid "Activity Log"
+msgstr "活动日志"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_purchase_view
+msgid "Request Book(s)"
+msgstr "请求书（的）"
+
+#. module: openeducat_erp
+#: report:op.student.report:0
+msgid "Roll No.:"
+msgstr "学号："
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Due Book Of Month"
+msgstr "由于本月"
+
+#. module: openeducat_erp
+#: report:op.exam.student.lable:0
+msgid "Course :"
+msgstr "课程："
+
+#. module: openeducat_erp
+#: field:op.pass.status,number:0
+msgid "Minimum Percentage"
+msgstr "最小百分比"
+
+#. module: openeducat_erp
+#: field:gen.time.table.line,subject_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_subject_view
+#: view:op.assignment:0
+#: field:op.assignment,subject_id:0
+#: field:op.attendance.register,subject_id:0
+#: field:op.book.purchase,subject_ids:0
+#: view:op.exam:0
+#: field:op.exam,subject_id:0
+#: report:op.marksheet:0
+#: view:op.subject:0
+#: view:op.timetable:0
+#: field:op.timetable,subject_id:0
+msgid "Subject"
+msgstr "科目"
+
+#. module: openeducat_erp
+#: view:student.hall.ticket:0
+msgid "Print Student Hall Tickets"
+msgstr "打印学生馆门票"
+
+#. module: openeducat_erp
+#: view:issue.book:0
+msgid "Book Issue"
+msgstr "本书的问题"
+
+#. module: openeducat_erp
+#: field:op.exam,attendees_line:0
+msgid "Attendees"
+msgstr "与会者"
+
+#. module: openeducat_erp
+#: view:op.transportation:0
+msgid "Route Name"
+msgstr "路线名称"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_hostel_room_view
+#: view:op.hostel.room:0
+msgid "Hostel Room"
+msgstr "宿舍房间"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_library_card_view
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_library
+#: model:ir.model,name:openeducat_erp.model_op_library_card
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_library_card_sub
+#: field:issue.book,library_card_id:0
+#: view:op.book.movement:0
+#: field:op.book.movement,library_card_id:0
+#: field:op.faculty,library_card:0
+#: view:op.library.card:0
+#: field:op.student,library_card:0
+#: field:res.partner,library_card_ids:0
+msgid "Library Card"
+msgstr "借书卡"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+msgid "Assignment Name"
+msgstr "任务名称"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_marksheet_register_view
+#: view:op.marksheet.line:0
+#: field:op.marksheet.line,marksheet_reg_id:0
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,name:0
+msgid "Marksheet Register"
+msgstr "成绩单登记"
+
+#. module: openeducat_erp
+#: view:admission.analysis:0
+#: view:student.hall.ticket:0
+msgid "Print"
+msgstr "打印"
+
+#. module: openeducat_erp
+#: field:issue.book,type:0
+#: view:op.assignment:0
+#: field:op.assignment,type:0
+#: view:op.faculty:0
+#: view:op.scholarship:0
+#: field:op.scholarship,type_id:0
+#: view:op.subject:0
+#: field:op.subject,type:0
+msgid "Type"
+msgstr "类型"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.assignment:0
+#: view:op.faculty:0
+#: view:op.hostel.room:0
+#: view:op.library.card:0
+#: view:op.library.card.type:0
+#: view:op.placement.offer:0
+#: view:op.student:0
+msgid "Basic Information"
+msgstr "基本信息"
+
+#. module: openeducat_erp
+#: view:op.marksheet.register:0
+msgid "Marksheet Detail"
+msgstr "成绩单的细节"
+
+#. module: openeducat_erp
+#: view:op.classroom:0
+#: field:op.classroom,facility:0
+#: field:op.hostel.room,facility_line:0
+msgid "Facilities"
+msgstr "设备"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_activity_type_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_activity_type_sub
+#: field:op.activity,type_id:0
+#: view:op.activity.type:0
+#: field:op.activity.type,name:0
+msgid "Activity Type"
+msgstr "活动类型"
+
+#. module: openeducat_erp
+#: field:op.result.exam.line,result_id:0
+#: field:reserve.book,partner_id:0
+msgid "unknown"
+msgstr "未知的"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_faculty_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_faculty_main_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_faculty_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_faculty_sub_faculty
+msgid "Faculties"
+msgstr "教师"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_attendance_register
+msgid "op.attendance.register"
+msgstr "op.attendance.register"
+
+#. module: openeducat_erp
+#: field:op.health,height:0
+msgid "Height(C.M.)"
+msgstr "高度（厘米）"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Tel:"
+msgstr "电话："
+
+#. module: openeducat_erp
+#: view:op.placement.offer:0
+#: selection:op.placement.offer,state:0
+msgid "Join"
+msgstr "加入"
+
+#. module: openeducat_erp
+#: field:op.vehicle,reg_number:0
+msgid "Registration Number"
+msgstr "注册号"
+
+#. module: openeducat_erp
+#: field:op.health.line,recommendation:0
+msgid "Checkup Recommendation"
+msgstr "检查的建议"
+
+#. module: openeducat_erp
+#: field:op.library.card.type,penalty_amt_per_day:0
+msgid "Penalty Amount Per Day"
+msgstr "每一天的罚款金额"
+
+#. module: openeducat_erp
+#: field:op.attendance.sheet,teacher_id:0
+#: selection:time.table.report,state:0
+msgid "Teacher"
+msgstr "老师"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_gen_roll_no
+msgid "Generate Roll Number  "
+msgstr "生成学号"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Regular Checkup"
+msgstr "定期检查"
+
+#. module: openeducat_erp
+#: field:op.placement.offer,join_date:0
+msgid "Join Date"
+msgstr "加入日期"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Other Details"
+msgstr "其他细节"
+
+#. module: openeducat_erp
+#: view:res.company:0
+#: field:res.company,accredetion:0
+msgid "Accredetion"
+msgstr "accredetion"
+
+#. module: openeducat_erp
+#: selection:op.admission,gender:0
+#: selection:op.faculty,gender:0
+#: selection:op.student,gender:0
+msgid "Male"
+msgstr "男性"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "Delete"
+msgstr "删除"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.student:0
+msgid "Personal Detail"
+msgstr "个人详细资料"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "í"
+msgstr "í"
+
+#. module: openeducat_erp
+#: view:op.book.purchase:0
+msgid "Request Book"
+msgstr "请求书"
+
+#. module: openeducat_erp
+#: field:op.admission,photo:0
+#: field:op.faculty,photo:0
+#: field:op.student,photo:0
+msgid "Photo"
+msgstr "照片"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_assignment
+msgid "op.assignment"
+msgstr "op.assignment"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_faculty
+msgid "op.faculty"
+msgstr "op.faculty"
+
+#. module: openeducat_erp
+#: field:op.student,current_position:0
+msgid "Current Position"
+msgstr "当前位置"
+
+#. module: openeducat_erp
+#: constraint:op.hostel:0
+msgid "Hostel capacity Over."
+msgstr "宿舍容量。"
+
+#. module: openeducat_erp
+#: selection:op.result.line,status:0
+msgid "Pass"
+msgstr "通过"
+
+#. module: openeducat_erp
+#: field:op.route,parent_route:0
+msgid "Parent Route"
+msgstr "父路由"
+
+#. module: openeducat_erp
+#: field:op.faculty,pan_card:0
+#: field:op.student,pan_card:0
+msgid "PAN Card"
+msgstr "PAN卡"
+
+#. module: openeducat_erp
+#: field:op.timetable,start_datetime:0
+msgid "Start"
+msgstr "起点"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,country_id:0
+#: view:op.student:0
+msgid "Country"
+msgstr "国"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_student
+msgid "Search Books"
+msgstr "搜索书籍"
+
+#. module: openeducat_erp
+#: view:op.attendance.line:0
+#: field:op.attendance.line,present:0
+msgid "Present ?"
+msgstr "目前的？"
+
+#. module: openeducat_erp
+#: view:op.religion:0
+msgid "Religion Detail"
+msgstr "宗教的细节"
+
+#. module: openeducat_erp
+#: field:op.admission,family_business:0
+msgid "Family Business"
+msgstr "家族企业"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_transportation_view
+#: view:op.transportation:0
+msgid "Transportation"
+msgstr "交通运输"
+
+#. module: openeducat_erp
+#: report:op.student.report:0
+msgid "Blood Group:"
+msgstr "血型："
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Monday"
+msgstr "星期一"
+
+#. module: openeducat_erp
+#: field:res.users,user_line:0
+msgid "User Line"
+msgstr "用户线"
+
+#. module: openeducat_erp
+#: view:op.classroom:0
+msgid "Asset Management"
+msgstr "资产管理"
+
+#. module: openeducat_erp
+#: field:op.result.template.line,exam_lines:0
+msgid "Exam Lines"
+msgstr "检查线路"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_exam_student_lable
+msgid "Print Student Lable"
+msgstr "打印学生标签"
+
+#. module: openeducat_erp
+#: view:op.achievement:0
+#: field:op.achievement,achievement_date:0
+#: field:op.activity,date:0
+#: field:op.attendance.line,attendance_date:0
+#: view:op.attendance.sheet:0
+#: field:op.attendance.sheet,attendance_date:0
+#: field:op.health.line,date:0
+#: field:student.migrate,date:0
+msgid "Date"
+msgstr "日期"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_root
+msgid "OpenEduCat"
+msgstr "OpenEduCat"
+
+#. module: openeducat_erp
+#: view:op.marksheet.register:0
+#: field:op.marksheet.register,total_pass:0
+msgid "Total Pass"
+msgstr "总计通过"
+
+#. module: openeducat_erp
+#: model:res.groups,name:openeducat_erp.group_op_back_office_admin
+msgid "Back Office Admin"
+msgstr "后台管理"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: field:op.faculty,language:0
+#: view:op.student:0
+msgid "Language"
+msgstr "语言"
+
+#. module: openeducat_erp
+#: field:op.student,passing_year:0
+msgid "Passing Year"
+msgstr "过去的一年"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "AB+ve"
+msgstr "AB+ve"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: openeducat_erp
+#: view:op.vehicle:0
+msgid "Vehicle Details"
+msgstr "车辆细节"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_transportations
+msgid "Transportations Management"
+msgstr "交通管理"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_dashboard_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_dashboard_library
+#: model:ir.ui.menu,name:openeducat_erp.menu_student_dashboard
+msgid "Dashboard"
+msgstr "仪表板"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_allocat_division_sub
+msgid "Allocation Of Division"
+msgstr "配置分级"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_sub_op_dashboard_library
+msgid "Library Dashboard"
+msgstr "图书馆的仪表板"
+
+#. module: openeducat_erp
+#: view:op.classroom:0
+msgid "ClassRoom"
+msgstr "教室"
+
+#. module: openeducat_erp
+#: view:generate.roll.number:0
+#: model:ir.model,name:openeducat_erp.model_generate_roll_number
+msgid "Generate Roll Number"
+msgstr "生成学号"
+
+#. module: openeducat_erp
+#: selection:op.period,hour:0
+msgid "12"
+msgstr "12"
+
+#. module: openeducat_erp
+#: selection:op.period,minute:0
+msgid "15"
+msgstr "15"
+
+#. module: openeducat_erp
+#: view:op.author:0
+msgid "Author Detail"
+msgstr "作者详细"
+
+#. module: openeducat_erp
+#: field:op.faculty,id_number:0
+#: field:op.student,id_number:0
+msgid "ID Card Number"
+msgstr "身份证号码"
+
+#. module: openeducat_erp
+#: field:op.student,current_job:0
+msgid "Current Job"
+msgstr "目前的工作"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,sufix:0
+msgid "Sufix"
+msgstr "Sufix"
+
+#. module: openeducat_erp
+#: field:op.book,edition:0
+#: field:op.book.purchase,edition:0
+msgid "Edition"
+msgstr "版本"
+
+#. module: openeducat_erp
+#: view:book.request.queue:0
+#: view:op.admission:0
+#: selection:op.admission,state:0
+#: view:op.exam:0
+#: view:op.placement.offer:0
+#: selection:op.placement.offer,state:0
+msgid "Cancel"
+msgstr "取消"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Faculty Name"
+msgstr "学院名称"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Personal Information"
+msgstr "个人信息"
+
+#. module: openeducat_erp
+#: view:time.table.report:0
+msgid "Time Table Report"
+msgstr "表时间的报告"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_author
+msgid "op.author"
+msgstr "op.author"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,admission_date:0
+msgid "Admission Date"
+msgstr "入院日期"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,name:0
+#: view:op.faculty:0
+#: view:op.student:0
+msgid "First Name"
+msgstr "名字"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Create Invoice"
+msgstr "创建发票"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "A-ve"
+msgstr "a-ve"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+msgid "Allocation Infomation"
+msgstr "配置信息"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_min_clear_criteria
+msgid "op.min.clear.criteria"
+msgstr "op.min.clear.criteria"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_hostel_room_sub
+msgid "Hostel Rooms"
+msgstr "宿舍的房间"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_res_users
+msgid "Users"
+msgstr "用户"
+
+#. module: openeducat_erp
+#: report:op.exam.student.lable:0
+msgid "Seating Arrangment for Student Examination"
+msgstr "座位安排学生考试"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_achievement
+msgid "op.achievement"
+msgstr "op.achievement"
+
+#. module: openeducat_erp
+#: field:exam.seat.arrange,start_time:0
+#: field:op.exam,start_time:0
+#: field:op.exam.session,start_time:0
+#: field:op.transportation,start_time:0
+msgid "Start Time"
+msgstr "开始时间"
+
+#. module: openeducat_erp
+#: selection:op.assignment,state:0
+msgid "Finished"
+msgstr "完成"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_library_main_library
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_library_root
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_library_root
+#: view:op.student:0
+msgid "Library"
+msgstr "图书馆"
+
+#. module: openeducat_erp
+#: field:gen.time.table.line,faculty_id:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_faculty_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_faculty_root
+#: field:issue.book,faculty_id:0
+#: selection:issue.book,type:0
+#: view:op.achievement:0
+#: field:op.achievement,faculty_id:0
+#: field:op.activity,faculty_id:0
+#: view:op.assignment:0
+#: field:op.assignment,faculty_id:0
+#: field:op.assignment.sub.history,faculty_id:0
+#: field:op.book.movement,faculty_id:0
+#: selection:op.book.movement,type:0
+#: field:op.book.purchase,faculty_id:0
+#: view:op.exam.res.allocation:0
+#: field:op.exam.res.allocation,faculty_ids:0
+#: view:op.faculty:0
+#: field:op.health,faculty_id:0
+#: view:op.timetable:0
+#: field:op.timetable,faculty_id:0
+#: model:res.groups,name:openeducat_erp.group_op_faculty
+#: field:time.table.report,faculty_id:0
+msgid "Faculty"
+msgstr "教师"
+
+#. module: openeducat_erp
+#: field:op.hostel,room_lines:0
+msgid "Room(s)"
+msgstr "房间（的）"
+
+#. module: openeducat_erp
+#: code:addons/openeducat_erp/op_book_movement/op_book_movement.py:113
+#: model:ir.actions.act_window,name:openeducat_erp.return_date_act
+#: field:issue.book,return_date:0
+#: view:op.book.movement:0
+#: field:op.book.movement,return_date:0
+#: view:return.date:0
+#, python-format
+msgid "Return Date"
+msgstr "返回日期"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Change And ReSubmit"
+msgstr "改变并重新提交"
+
+#. module: openeducat_erp
+#: field:op.result.exam.line,weightage:0
+msgid "Weightage"
+msgstr "的权重"
+
+#. module: openeducat_erp
+#: selection:op.exam.attendees,status:0
+msgid "Absent"
+msgstr "缺席的"
+
+#. module: openeducat_erp
+#: view:op.achievement.type:0
+#: field:op.achievement.type,name:0
+#: field:op.allocat.division,name:0
+#: view:op.assignment:0
+#: field:op.assignment,name:0
+#: view:op.attendance.register:0
+#: field:op.attendance.register,name:0
+#: field:op.attendance.sheet,name:0
+#: field:op.author,name:0
+#: field:op.batch,name:0
+#: view:op.book.queue:0
+#: view:op.category:0
+#: field:op.category,name:0
+#: view:op.classroom:0
+#: field:op.classroom,name:0
+#: field:op.course,name:0
+#: field:op.division,name:0
+#: field:op.exam.room,name:0
+#: view:op.exam.type:0
+#: field:op.exam.type,name:0
+#: view:op.facility:0
+#: field:op.facility,Name:0
+#: view:op.hostel:0
+#: field:op.hostel,name:0
+#: field:op.hostel.room,name:0
+#: field:op.library.card.type,name:0
+#: field:op.min.clear.criteria,name:0
+#: view:op.parent:0
+#: field:op.pass.status,name:0
+#: field:op.period,name:0
+#: field:op.publisher,name:0
+#: view:op.religion:0
+#: field:op.religion,name:0
+#: field:op.result.template,name:0
+#: field:op.room,name:0
+#: view:op.route:0
+#: field:op.route,name:0
+#: view:op.scholarship:0
+#: field:op.scholarship,name:0
+#: view:op.scholarship.type:0
+#: field:op.scholarship.type,name:0
+#: field:op.standard,name:0
+#: field:op.stop,name:0
+#: field:op.subject,name:0
+#: view:op.tag:0
+#: field:op.tag,name:0
+#: field:op.transportation,name:0
+#: view:op.vehicle:0
+#: field:op.vehicle,name:0
+msgid "Name"
+msgstr "名称"
+
+#. module: openeducat_erp
+#: field:op.classroom,capacity:0
+msgid "No. Of Person"
+msgstr "人数"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,application_date:0
+msgid "Application Date"
+msgstr "申请日期"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_subject
+msgid "Subject(s) Management"
+msgstr "科目管理"
+
+#. module: openeducat_erp
+#: field:op.admission,birth_date:0
+#: field:op.faculty,birth_date:0
+#: field:op.student,birth_date:0
+msgid "Birth Date"
+msgstr "出生日期"
+
+#. module: openeducat_erp
+#: selection:op.course,evaluation_type:0
+#: selection:op.exam,evaluation_type:0
+msgid "CWA"
+msgstr "CWA"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Assignment Accepted"
+msgstr "分配接受"
+
+#. module: openeducat_erp
+#: field:op.faculty,login:0
+msgid "Login"
+msgstr "登录"
+
+#. module: openeducat_erp
+#: field:op.result.template,criteria_ids:0
+msgid "Minimum qualification Criteria"
+msgstr "最低资格标准"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,division_ids:0
+msgid "Divisiones"
+msgstr "股"
+
+#. module: openeducat_erp
+#: view:op.book.queue:0
+msgid "Book Queue Request Details"
+msgstr "借书申请细节"
+
+#. module: openeducat_erp
+#: field:op.student,language:0
+msgid "Mother Tongue"
+msgstr "母语"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Submit Assignment"
+msgstr "提交作业"
+
+#. module: openeducat_erp
+#: field:op.route,cost:0
+#: field:op.transportation,cost:0
+msgid "Cost"
+msgstr "成本"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_tag
+msgid "op.tag"
+msgstr "op.tag"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_library_card_type_view
+#: model:ir.model,name:openeducat_erp.model_op_library_card_type
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_library_card_type_sub
+#: field:op.library.card,library_card_type_id:0
+#: view:op.library.card.type:0
+msgid "Library Card Type"
+msgstr "图书馆卡类型"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_division
+msgid "op.division"
+msgstr "op.division"
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Saturday"
+msgstr "星期六"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_book
+msgid "op.book"
+msgstr "op.book"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_student_bonafide_certificate
+#: report:student.bonafide.certificate:0
+msgid "Bonafide Certificate"
+msgstr "真正的证书"
+
+#. module: openeducat_erp
+#: field:op.min.clear.criteria,result:0
+#: field:op.pass.status,result:0
+msgid "Result to display"
+msgstr "结果显示"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_result_template_line
+msgid "Result template Line"
+msgstr "结果模板线"
+
+#. module: openeducat_erp
+#: view:op.achievement:0
+#: view:op.achievement.type:0
+#: view:op.admission:0
+#: view:op.assignment:0
+#: view:op.assignment.sub.history:0
+#: view:op.assignment.sub.line:0
+#: view:op.attendance.line:0
+#: view:op.attendance.register:0
+#: view:op.attendance.sheet:0
+#: view:op.batch:0
+#: view:op.book:0
+#: view:op.book.movement:0
+#: view:op.book.queue:0
+#: view:op.category:0
+#: view:op.classroom:0
+#: view:op.course:0
+#: view:op.division:0
+#: view:op.exam:0
+#: view:op.exam.attendees:0
+#: view:op.exam.type:0
+#: view:op.facility:0
+#: view:op.faculty:0
+#: view:op.health:0
+#: view:op.hostel:0
+#: view:op.hostel.room:0
+#: view:op.library.card:0
+#: view:op.library.card.type:0
+#: view:op.marksheet.line:0
+#: view:op.marksheet.register:0
+#: view:op.parent:0
+#: view:op.publisher:0
+#: view:op.religion:0
+#: view:op.result.line:0
+#: view:op.roll.number:0
+#: view:op.route:0
+#: view:op.scholarship:0
+#: view:op.scholarship.type:0
+#: view:op.standard:0
+#: view:op.student:0
+#: view:op.subject:0
+#: view:op.tag:0
+#: view:op.timetable:0
+#: view:op.transportation:0
+#: view:op.vehicle:0
+msgid "Group By..."
+msgstr "组…"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.student:0
+msgid "Educational Detail"
+msgstr "教育细节"
+
+#. module: openeducat_erp
+#: selection:op.admission,state:0
+#: selection:op.assignment.sub.history,state:0
+#: selection:op.assignment.sub.line,state:0
+#: view:op.book.purchase:0
+#: selection:op.placement.offer,state:0
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+#: field:op.assignment,marks:0
+#: view:op.assignment.sub.line:0
+#: field:op.exam.attendees,marks:0
+#: view:op.result.line:0
+#: field:op.result.line,marks:0
+msgid "Marks"
+msgstr "标志"
+
+#. module: openeducat_erp
+#: view:student.migrate:0
+msgid "Forward"
+msgstr "前进"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_result_line
+msgid "op.result.line"
+msgstr "op.result.line"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_attendance_sheet
+msgid "op.attendance.sheet"
+msgstr "op.attendance.sheet"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_publisher_sub
+#: view:op.book:0
+msgid "Publishers"
+msgstr "出版商"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_issue_book
+msgid "issue.book"
+msgstr "issue.book"
+
+#. module: openeducat_erp
+#: field:op.admission,gr_no:0
+msgid "Old Student??"
+msgstr "老的学生吗?"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,type:0
+msgid "Generation Sequence"
+msgstr "生成序列"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.placement.offer:0
+msgid "Set to Draft"
+msgstr "设置为草稿"
+
+#. module: openeducat_erp
+#: selection:op.period,hour:0
+msgid "11"
+msgstr "11"
+
+#. module: openeducat_erp
+#: field:op.attendance.line,remark:0
+msgid "Remark"
+msgstr "备注"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_allocat_division_view
+msgid "Allocate Division"
+msgstr "配置分级"
+
+#. module: openeducat_erp
+#: selection:op.period,hour:0
+msgid "10"
+msgstr "10"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_stop_view
+#: view:op.stop:0
+msgid "stop"
+msgstr "停止"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_batch_view
+#: view:op.admission:0
+#: field:op.admission,batch_id:0
+#: field:op.all.student,batch_id:0
+#: view:op.attendance.register:0
+#: field:op.attendance.register,batch_id:0
+#: view:op.batch:0
+#: view:op.exam:0
+#: field:op.exam.session,batch_id:0
+#: field:op.result.template.line,batch_id:0
+#: view:op.roll.number:0
+#: field:op.roll.number,batch_id:0
+#: view:op.student:0
+#: field:op.student,batch_id:0
+msgid "Batch"
+msgstr "班次"
+
+#. module: openeducat_erp
+#: view:res.company:0
+msgid "Institute Detail"
+msgstr "研究所的细节"
+
+#. module: openeducat_erp
+#: view:op.achievement.type:0
+#: field:op.achievement.type,code:0
+#: field:op.asset,code:0
+#: view:op.attendance.register:0
+#: field:op.attendance.register,code:0
+#: field:op.batch,code:0
+#: view:op.category:0
+#: field:op.category,code:0
+#: view:op.classroom:0
+#: field:op.classroom,code:0
+#: field:op.course,code:0
+#: field:op.division,code:0
+#: view:op.exam.type:0
+#: field:op.exam.type,code:0
+#: view:op.facility:0
+#: field:op.facility,Code:0
+#: view:op.religion:0
+#: field:op.religion,code:0
+#: field:op.room,code:0
+#: view:op.route:0
+#: field:op.route,code:0
+#: field:op.standard,code:0
+#: field:op.subject,code:0
+msgid "Code"
+msgstr "代码"
+
+#. module: openeducat_erp
+#: field:op.allocat.division,student_ids:0
+#: field:op.standard,student_ids:0
+#: view:op.transportation:0
+#: field:student.migrate,student_ids:0
+msgid "Student(s)"
+msgstr "学生（的）"
+
+#. module: openeducat_erp
+#: field:op.book,queue_ids:0
+msgid "Book Queue"
+msgstr "本书的队列"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_result_template_line_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_result_template_line
+#: field:op.marksheet.line,exam_session_id:0
+#: view:op.result.template.line:0
+msgid "Session Template"
+msgstr "会话模板"
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+msgid "Sunday"
+msgstr "星期日"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Stop Name"
+msgstr "站名"
+
+#. module: openeducat_erp
+#: selection:op.exam,state:0
+msgid "Held"
+msgstr "举行"
+
+#. module: openeducat_erp
+#: selection:op.admission,gender:0
+#: selection:op.faculty,gender:0
+#: selection:op.student,gender:0
+msgid "Female"
+msgstr "女性"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_asset
+msgid "op.asset"
+msgstr "op.asset"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "Edit..."
+msgstr "编辑…"
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+msgid "Book Reservation Detail"
+msgstr "本书保留细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_standard
+msgid "op.standard"
+msgstr "op.standard"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Driver Name"
+msgstr "驱动程序的名称"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.admission_analysis_act
+msgid "Admission Analysis Wizard"
+msgstr "接纳分析向导"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Educational"
+msgstr "教育"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_main
+#: view:op.attendance.line:0
+#: field:op.attendance.line,attendance_id:0
+msgid "Attendance"
+msgstr "考勤"
+
+#. module: openeducat_erp
+#: report:op.student.report:0
+msgid "BirthDate:"
+msgstr "出生日期："
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_stop
+msgid "op.stop"
+msgstr "op.stop"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_res_allocation_view
+#: view:op.exam.res.allocation:0
+msgid "Exam Resource Allocation"
+msgstr "考试资源分配"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+msgid "Course By Admission"
+msgstr "课程的入学"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_marksheet_line
+msgid "op.marksheet.line"
+msgstr "op.marksheet.line"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+#: selection:op.assignment,state:0
+msgid "Publish"
+msgstr "发布"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_room
+msgid "op.room"
+msgstr "op.room"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Alumni Detail"
+msgstr "校友的细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_allocat_division
+msgid "op.allocat.division"
+msgstr "op.allocat.division"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+msgid "Held Exam"
+msgstr "举行考试"
+
+#. module: openeducat_erp
+#: report:op.library.report:0
+#: report:op.student.report:0
+msgid "Phone:"
+msgstr "电话："
+
+#. module: openeducat_erp
+#: selection:op.period,minute:0
+msgid "00"
+msgstr "00"
+
+#. module: openeducat_erp
+#: selection:op.assignment.sub.history,state:0
+#: selection:op.assignment.sub.line,state:0
+msgid "Change Req."
+msgstr "变更请求。"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_sheet_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_sheet_sub_faculty
+msgid "Attendance Sheets"
+msgstr "考勤表"
+
+#. module: openeducat_erp
+#: field:op.exam,total_marks:0
+#: report:op.marksheet:0
+#: field:op.marksheet.line,total_marks:0
+#: field:op.result.exam.line,total_marks:0
+msgid "Total Marks"
+msgstr "总成绩"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_exam_type
+msgid "op.exam.type"
+msgstr "op.exam.type"
+
+#. module: openeducat_erp
+#: view:op.course:0
+#: field:op.course,evaluation_type:0
+#: view:op.exam:0
+#: field:op.exam,evaluation_type:0
+msgid "Evaluation Type"
+msgstr "评估类型"
+
+#. module: openeducat_erp
+#: field:op.period,hour:0
+msgid "Hours"
+msgstr "小时"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+msgid "state"
+msgstr "状态"
+
+#. module: openeducat_erp
+#: field:student.migrate,to_standard_id:0
+msgid "To Standard"
+msgstr "标准"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+#: field:op.assignment,submission_date:0
+#: view:op.assignment.sub.history:0
+#: field:op.assignment.sub.history,change_date:0
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,submission_date:0
+msgid "Submission Date"
+msgstr "提交日期"
+
+#. module: openeducat_erp
+#: report:op.library.report:0
+#: report:op.student.report:0
+msgid "E-mail:"
+msgstr "电子邮件："
+
+#. module: openeducat_erp
+#: field:op.book.purchase,library_id:0
+#: model:res.groups,name:openeducat_erp.group_op_library
+msgid "Librarian"
+msgstr "馆员"
+
+#. module: openeducat_erp
+#: field:op.period,minute:0
+msgid "Minute"
+msgstr "分钟"
+
+#. module: openeducat_erp
+#: selection:op.period,am_pm:0
+msgid "PM"
+msgstr "下午"
+
+#. module: openeducat_erp
+#: field:op.marksheet.register,generated_date:0
+msgid "Generated Date"
+msgstr "生成日期"
+
+#. module: openeducat_erp
+#: view:op.hostel.room:0
+msgid "Allocated Students"
+msgstr "分配的学生"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_student_migrate
+msgid "student.migrate"
+msgstr "student.migrate"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,separator:0
+msgid "Separator"
+msgstr "分离器"
+
+#. module: openeducat_erp
+#: view:op.all.student:0
+msgid "Add Absent Student(s)"
+msgstr "添加缺席的学生（的）"
+
+#. module: openeducat_erp
+#: field:op.assignment,reviewer:0
+msgid "Reviewer"
+msgstr "审稿人"
+
+#. module: openeducat_erp
+#: selection:generate.roll.number,type:0
+msgid "By Name"
+msgstr "的名字"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Partner Contacts"
+msgstr "合作伙伴联系"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_scholarship_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_scholarship_sub
+#: view:op.scholarship:0
+msgid "Scholarship"
+msgstr "奖学金"
+
+#. module: openeducat_erp
+#: field:op.exam.res.allocation,exam_session_ids:0
+msgid "Select Exam Session"
+msgstr "选择考试时段"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_hostel
+msgid "op.hostel"
+msgstr "op.hostel"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_religion_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_religion_sub
+#: field:op.admission,religion_id:0
+#: view:op.faculty:0
+#: field:op.faculty,religion:0
+#: view:op.religion:0
+#: view:op.student:0
+#: field:op.student,religion:0
+msgid "Religion"
+msgstr "宗教"
+
+#. module: openeducat_erp
+#: field:op.faculty,bank_acc_num:0
+#: field:op.student,bank_acc_num:0
+msgid "Bank Acc Number"
+msgstr "银行户口号码"
+
+#. module: openeducat_erp
+#: report:op.library.report:0
+msgid "Library Card Type :"
+msgstr "图书馆卡类型："
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_general
+msgid "General Management"
+msgstr "一般管理"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+#: view:op.marksheet.line:0
+#: field:op.marksheet.line,result:0
+#: field:op.marksheet.line,result_line:0
+#: view:op.result.exam.line:0
+msgid "Result"
+msgstr "结果"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.issue_book_act
+#: view:op.book:0
+#: view:op.book.movement:0
+msgid "Issue Book"
+msgstr "问题的书"
+
+#. module: openeducat_erp
+#: field:op.result.template.line,detailed_report:0
+msgid "Detailed Report"
+msgstr "详细的报告"
+
+#. module: openeducat_erp
+#: field:admission.analysis,start_date:0
+#: field:generate.time.table,start_date:0
+#: view:op.batch:0
+#: field:op.batch,start_date:0
+#: field:time.table.report,start_date:0
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: openeducat_erp
+#: view:board.board:0
+#: model:ir.actions.act_window,name:openeducat_erp.open_board_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_dashboard_faculty
+msgid "Faculty Dashboard"
+msgstr "教师的仪表板"
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Period Of Today"
+msgstr "今天的时期"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.student_hall_ticket_act
+#: model:ir.ui.menu,name:openeducat_erp.menu_student_hall_ticket
+msgid "Student Hall Tickets"
+msgstr "学生准考证"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_batch_sub
+msgid "Batches"
+msgstr "班次"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "the school / collage is ("
+msgstr "学校\/大学（"
+
+#. module: openeducat_erp
+#: constraint:op.book.movement:0
+msgid "Issue Date Should be greater than Return Date."
+msgstr "签发日期应大于返回日期。"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_student_attendance
+msgid "student.attendance"
+msgstr "student.attendance"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "period"
+msgstr "期"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,note:0
+#: field:op.exam,note:0
+#: field:op.exam.attendees,note:0
+msgid "Note"
+msgstr "注"
+
+#. module: openeducat_erp
+#: field:op.timetable,end_datetime:0
+msgid "End"
+msgstr "终点"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_class_room
+msgid "Class Room Management"
+msgstr "课堂管理"
+
+#. module: openeducat_erp
+#: field:op.period,am_pm:0
+msgid "AM/PM"
+msgstr "上午\/下午"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.book:0
+#: selection:op.book.purchase,state:0
+#: view:op.book.queue:0
+#: selection:op.book.queue,state:0
+#: view:op.placement.offer:0
+#: view:op.scholarship:0
+#: selection:op.scholarship,state:0
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+#: view:op.student:0
+#: report:op.student.report:0
+msgid "Course:"
+msgstr "课程："
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_exam_seat_arrange
+msgid "exam.seat.arrange"
+msgstr "exam.seat.arrange"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+#: field:op.assignment,allocation_ids:0
+msgid "Allocated To"
+msgstr "分配给"
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: field:op.book,movement_line:0
+msgid "Movement"
+msgstr "运动"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,start:0
+msgid "Number Starts from"
+msgstr "数量从"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: report:op.transport.detail.report:0
+msgid "Address:"
+msgstr "地址："
+
+#. module: openeducat_erp
+#: view:op.exam:0
+msgid "Schedule Exam"
+msgstr "安排考试"
+
+#. module: openeducat_erp
+#: view:exam.seat.arrange:0
+msgid "Exam Seating Arrangement"
+msgstr "考试座位安排"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: view:op.student:0
+msgid "Category:"
+msgstr "类别："
+
+#. module: openeducat_erp
+#: view:gen.time.table.line:0
+msgid "TimeTable Line"
+msgstr "时间线"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,phone:0
+#: view:op.student:0
+msgid "Phone"
+msgstr "电话"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_exam_result
+msgid "Exam Result"
+msgstr "考试结果"
+
+#. module: openeducat_erp
+#: field:op.vehicle,active:0
+msgid "Active"
+msgstr "活跃的"
+
+#. module: openeducat_erp
+#: field:op.standard,division_ids:0
+msgid "Divisions"
+msgstr "区划"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: selection:op.admission,state:0
+msgid "Enroll"
+msgstr "报名"
+
+#. module: openeducat_erp
+#: field:op.result.line,result_id:0
+msgid "MarkSheet Line"
+msgstr "成绩单线"
+
+#. module: openeducat_erp
+#: view:op.exam:0
+#: field:op.exam,exam_code:0
+#: field:op.exam.session,exam_code:0
+msgid "Exam Code"
+msgstr "检查代码"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_result_template_view
+#: model:ir.model,name:openeducat_erp.model_op_result_template
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_result_template
+#: view:op.result.template:0
+msgid "Result Template"
+msgstr "结果模板"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_assignment_sub_line_sub
+msgid "Assignment Submission"
+msgstr "作业提交"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_course_sub
+#: view:op.book:0
+msgid "Courses"
+msgstr "课程"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_course
+msgid "op.course"
+msgstr "op.course"
+
+#. module: openeducat_erp
+#: field:gen.time.table.line,gen_time_table:0
+#: view:generate.time.table:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_timetable_view
+#: model:ir.model,name:openeducat_erp.model_op_timetable
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_timetable
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_timetable_main
+#: view:op.faculty:0
+#: view:op.timetable:0
+msgid "Time Table"
+msgstr "时刻表"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_book_queue
+msgid " Book Queue Request Detail for Students and Faculties "
+msgstr "对学生和教师进行队列请求书"
+
+#. module: openeducat_erp
+#: view:op.allocat.division:0
+msgid "Generate Division"
+msgstr "产生分裂"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_hostel_sub
+msgid "Hostels"
+msgstr "宿舍"
+
+#. module: openeducat_erp
+#: field:op.subject,grade_waitage:0
+msgid "Grade Waitage"
+msgstr "waitage级"
+
+#. module: openeducat_erp
+#: view:op.health:0
+#: field:op.health,major_diseases_note:0
+msgid "Major Diseases"
+msgstr "重大疾病"
+
+#. module: openeducat_erp
+#: field:op.transportation,to:0
+msgid "To"
+msgstr "对"
+
+#. module: openeducat_erp
+#: selection:issue.book,state:0
+#: selection:op.book,state:0
+#: selection:op.book.movement,state:0
+msgid "Issued"
+msgstr "发布"
+
+#. module: openeducat_erp
+#: field:op.library.card,number:0
+msgid "Number"
+msgstr "数"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_general_main
+msgid "General"
+msgstr "一般"
+
+#. module: openeducat_erp
+#: field:op.health,physical_challenges_note:0
+msgid "Physical Challenge"
+msgstr "过敏史"
+
+#. module: openeducat_erp
+#: selection:op.admission,gender:0
+#: selection:op.faculty,gender:0
+#: selection:op.student,gender:0
+#: selection:op.subject,type:0
+msgid "Other"
+msgstr "其他的"
+
+#. module: openeducat_erp
+#: selection:op.admission,state:0
+#: view:op.exam:0
+#: selection:op.exam,state:0
+msgid "Done"
+msgstr "完成"
+
+#. module: openeducat_erp
+#: field:op.admission,fees:0
+msgid "Fees"
+msgstr "费"
+
+#. module: openeducat_erp
+#: selection:op.marksheet.register,status:0
+msgid "Validated"
+msgstr "验证"
+
+#. module: openeducat_erp
+#: view:op.result.template:0
+msgid "Passing Status"
+msgstr "通过状态"
+
+#. module: openeducat_erp
+#: field:op.exam,min_marks:0
+#: report:op.marksheet:0
+#: field:op.result.exam.line,pass_marks:0
+msgid "Passing Marks"
+msgstr "合格标志"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,application_number:0
+msgid "Application Number"
+msgstr "申请编号"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,city:0
+#: view:op.student:0
+msgid "City"
+msgstr "市"
+
+#. module: openeducat_erp
+#: field:op.student,placement_line:0
+msgid "Placement Details"
+msgstr "配置细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_exam_res_allocation
+msgid "op.exam.res.allocation"
+msgstr "op.exam.res.allocation"
+
+#. module: openeducat_erp
+#: field:op.exam,responsible_id:0
+msgid "Responsible"
+msgstr "负责"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_library
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_request_student
+msgid "Request A Book(s)"
+msgstr "请求书（的）"
+
+#. module: openeducat_erp
+#: selection:op.faculty,blood_group:0
+#: selection:op.health,blood_group:0
+#: selection:op.student,blood_group:0
+msgid "AB-ve"
+msgstr "公司已经"
+
+#. module: openeducat_erp
+#: view:op.batch:0
+msgid "Batch Details"
+msgstr "班次细节"
+
+#. module: openeducat_erp
+#: field:op.exam.res.allocation,exam_ids:0
+msgid "Exam(s)"
+msgstr "考试（S）"
+
+#. module: openeducat_erp
+#: field:op.admission,family_income:0
+msgid "Family Income"
+msgstr "家庭收入"
+
+#. module: openeducat_erp
+#: view:op.allocat.division:0
+msgid "Allocat Division"
+msgstr "配置分区"
+
+#. module: openeducat_erp
+#: field:op.asset,product_id:0
+msgid "Product"
+msgstr "产品"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.student:0
+msgid "ZIP"
+msgstr "邮编"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_assignment_sub_line_view
+#: view:op.assignment.sub.line:0
+msgid "Assignment Sub Line"
+msgstr "任务"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_parent
+msgid "op.parent"
+msgstr "op.parent"
+
+#. module: openeducat_erp
+#: field:op.transportation,stop:0
+msgid "Stop"
+msgstr "停止"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_religion
+msgid "op.religion"
+msgstr "op.religion"
+
+#. module: openeducat_erp
+#: view:student.hall.ticket:0
+msgid "Student Hall Ticket"
+msgstr "学生售票大厅"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_attendance_line_view
+#: view:op.attendance.line:0
+#: view:op.attendance.sheet:0
+#: field:op.attendance.sheet,attendance_line:0
+msgid "Attendance Line"
+msgstr "考勤线"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.author,address:0
+#: field:op.publisher,address_id:0
+#: view:op.student:0
+msgid "Address"
+msgstr "地址"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_result_exam_line_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_result_exam_line
+#: view:op.result.exam.line:0
+#: view:op.result.line:0
+#: field:op.result.line,exam_tmpl_id:0
+#: view:op.result.template.line:0
+msgid "Exam Template"
+msgstr "考试模板"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: field:op.faculty,nationality:0
+#: view:op.student:0
+#: field:op.student,nationality:0
+msgid "Nationality"
+msgstr "国籍"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_course
+msgid "Course Management"
+msgstr "课程管理"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_roll_number_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_roll_number_sub
+#: view:op.roll.number:0
+#: field:op.roll.number,roll_number:0
+#: field:op.student,roll_number_line:0
+msgid "Roll Number"
+msgstr "学号"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_classroom_view
+#: view:op.classroom:0
+#: field:op.exam.room,classroom_id:0
+msgid "Classroom"
+msgstr "教室"
+
+#. module: openeducat_erp
+#: field:admission.analysis,end_date:0
+#: field:generate.time.table,end_date:0
+#: view:op.batch:0
+#: field:op.batch,end_date:0
+#: field:time.table.report,end_date:0
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_student
+msgid "op.student"
+msgstr "op.student"
+
+#. module: openeducat_erp
+#: field:exam.seat.arrange,room_id:0
+#: field:op.exam.session,room_id:0
+#: view:op.room:0
+msgid "Room"
+msgstr "房间"
+
+#. module: openeducat_erp
+#: selection:op.book.purchase,state:0
+msgid "Requested"
+msgstr "要求"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_hostel
+msgid "Hostel Management"
+msgstr "宿舍管理"
+
+#. module: openeducat_erp
+#: field:op.result.template,line_ids:0
+msgid "Lines"
+msgstr "线"
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: field:op.book,id_book:0
+msgid "ISBN Code"
+msgstr "ISBN号"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_root_config
+msgid "OpenEduCat Configuration"
+msgstr "openeducat配置"
+
+#. module: openeducat_erp
+#: field:op.admission,prev_result:0
+msgid "Previous Result"
+msgstr "以前的结果"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Postal Address"
+msgstr "邮政地址"
+
+#. module: openeducat_erp
+#: code:addons/openeducat_erp/op_book/op_book.py:52
+#: view:return.book:0
+#, python-format
+msgid "Book Return"
+msgstr "本书回来"
+
+#. module: openeducat_erp
+#. openerp-web
+#: code:addons/openeducat_erp/static/src/xml/base.xml:11
+#, python-format
+msgid "Tech Receptives"
+msgstr "技术receptives"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_attendance_line_sub
+msgid "Attendance lines"
+msgstr "考勤线"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_health_line
+msgid "op.health.line"
+msgstr "op.health.line"
+
+#. module: openeducat_erp
+#: field:op.admission,state_id:0
+msgid "States"
+msgstr "状态"
+
+#. module: openeducat_erp
+#: view:op.hostel.room:0
+#: field:op.hostel.room,rent:0
+msgid "Rent"
+msgstr "租金"
+
+#. module: openeducat_erp
+#: view:op.course:0
+msgid "Course Detail"
+msgstr "课程详情"
+
+#. module: openeducat_erp
+#: field:op.library.card.type,duration:0
+#: field:op.period,duration:0
+msgid "Duration"
+msgstr "持续时间"
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+msgid "Total"
+msgstr "总"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_attendance_sheet_view
+#: view:op.attendance.sheet:0
+msgid "Attendance Sheet"
+msgstr "考勤表"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_book_request_queue
+msgid "book.request.queue"
+msgstr "book.request.queue"
+
+#. module: openeducat_erp
+#: field:op.admission,nbr:0
+msgid "# of Admission"
+msgstr "#入场"
+
+#. module: openeducat_erp
+#: view:op.all.student:0
+msgid "Confirm Student Selection"
+msgstr "确认学生选择"
+
+#. module: openeducat_erp
+#: view:book.request.queue:0
+msgid "Add Book Queue Request"
+msgstr "加入书请求队列"
+
+#. module: openeducat_erp
+#: view:op.parent:0
+#: field:op.parent,student_ids:0
+msgid "Select Student"
+msgstr "选择学生"
+
+#. module: openeducat_erp
+#: selection:op.course,evaluation_type:0
+#: selection:op.exam,evaluation_type:0
+msgid "CCE"
+msgstr "CCE"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "End Time:"
+msgstr "结束时间："
+
+#. module: openeducat_erp
+#: selection:op.subject,type:0
+msgid "Practial"
+msgstr "实践"
+
+#. module: openeducat_erp
+#: selection:op.subject,type:0
+msgid "Theory"
+msgstr "理论"
+
+#. module: openeducat_erp
+#: view:op.placement.offer:0
+#: selection:op.placement.offer,state:0
+msgid "Offer"
+msgstr "提供"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_op_student_assignment
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_assignment_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_assignment_faculty
+#: view:op.assignment:0
+#: view:op.assignment.sub.history:0
+#: field:op.assignment.sub.history,assign_sub_id:0
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,assignment_id:0
+#: view:op.student:0
+#: field:op.student,allocation_ids:0
+msgid "Assignment"
+msgstr "分配"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Roll Number:"
+msgstr "轴号："
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Friday"
+msgstr "星期五"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+#: view:op.student:0
+#: view:op.timetable:0
+msgid "Division:"
+msgstr "分级："
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_assignment_sub_history
+msgid "op.assignment.sub.history"
+msgstr "op.assignment.sub.history"
+
+#. module: openeducat_erp
+#: view:op.parent:0
+#: field:op.parent,name:0
+msgid "Parent Name"
+msgstr "公司名称"
+
+#. module: openeducat_erp
+#: selection:op.subject,type:0
+msgid "Both"
+msgstr "理论&实践"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_marksheet_line_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_marksheet_line_sub_faculty
+msgid "Marksheet Lines"
+msgstr "成绩单线"
+
+#. module: openeducat_erp
+#: view:book.request.queue:0
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_book_queue_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_queue_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_queue_faculty_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_queue_student
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_queue_student_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_queue_sub
+#: view:op.book:0
+#: view:op.book.queue:0
+msgid "Book Queue Request"
+msgstr "借书申请"
+
+#. module: openeducat_erp
+#: field:op.student,phone:0
+msgid "Phone Number"
+msgstr "电话号码"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_category
+msgid "op.category"
+msgstr "op.category"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_config_standard
+msgid "Standard Management"
+msgstr "规范管理"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_classroom_sub
+msgid "Class Room"
+msgstr "教室"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+msgid "Mobile:"
+msgstr "移动："
+
+#. module: openeducat_erp
+#: selection:op.exam,state:0
+#: selection:op.marksheet.register,status:0
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: openeducat_erp
+#: view:op.scholarship.type:0
+msgid "Scholarship Type"
+msgstr "奖学金的类型"
+
+#. module: openeducat_erp
+#: field:op.marksheet.line,total_per:0
+msgid "Total Percentage"
+msgstr "总百分比"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,example:0
+msgid "Example"
+msgstr "的例子"
+
+#. module: openeducat_erp
+#: view:gen.time.table.line:0
+msgid "Table Line"
+msgstr "表行"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: view:op.student:0
+msgid "Street..."
+msgstr "街…"
+
+#. module: openeducat_erp
+#: field:op.timetable,color:0
+msgid "Color Index"
+msgstr "显色指数"
+
+#. module: openeducat_erp
+#: view:issue.book:0
+#: view:reserve.book:0
+#: view:return.book:0
+#: view:return.date:0
+msgid "OK"
+msgstr "好啊"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_marksheet_register
+msgid "op.marksheet.register"
+msgstr "op.marksheet.register"
+
+#. module: openeducat_erp
+#: field:issue.book,quantity:0
+#: view:op.book:0
+#: field:op.book,number_book:0
+#: field:op.book.movement,quantity:0
+msgid "No. Of Books"
+msgstr "书籍编号"
+
+#. module: openeducat_erp
+#: field:op.result.template.line,result_id:0
+msgid "Result Template Line"
+msgstr "结果模板线"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_subject_sub
+#: view:op.book:0
+#: field:op.book,subject_ids:0
+#: view:op.course:0
+#: field:op.faculty,faculty_subject_ids:0
+msgid "Subjects"
+msgstr "科目"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Alumni Details"
+msgstr "校友的细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_gen_time_table_line
+msgid "Generate Time Table Lines"
+msgstr "产生时间的表行"
+
+#. module: openeducat_erp
+#: view:op.health:0
+msgid "Checkup Details"
+msgstr "检查的细节"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Student Detail"
+msgstr "学生的细节"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: selection:op.admission,state:0
+#: view:op.scholarship:0
+#: selection:op.scholarship,state:0
+msgid "Confirm"
+msgstr "确认"
+
+#. module: openeducat_erp
+#: field:op.course,section:0
+msgid "Section"
+msgstr "节选"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_assignment_sub_history_view
+#: view:op.assignment.sub.history:0
+msgid "Assignment Sub History"
+msgstr "分配子史"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_subject
+msgid "op.subject"
+msgstr "op.subject"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_admission
+msgid "op.admission"
+msgstr "op.admission"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,email:0
+#: field:op.student,email:0
+msgid "Email"
+msgstr "电子邮件"
+
+#. module: openeducat_erp
+#: view:exam.seat.arrange:0
+#: model:ir.actions.act_window,name:openeducat_erp.exam_seat_arrange_act
+msgid "Exam Seat Arrange"
+msgstr "考试座位安排"
+
+#. module: openeducat_erp
+#: report:op.library.report:0
+msgid "Library Card No :"
+msgstr "图书馆卡没有："
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+#: field:op.book.movement,actual_return_date:0
+#: field:return.book,actual_return_date:0
+#: field:return.date,actual_return_date:0
+msgid "Actual Return Date"
+msgstr "实际返回日期"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_health
+msgid " Health Detail for Students and Faculties "
+msgstr "对学生和教师的健康细节"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_vehicle
+msgid "op.vehicle"
+msgstr "op.vehicle"
+
+#. module: openeducat_erp
+#: view:op.health:0
+#: view:op.placement.offer:0
+#: field:op.placement.offer,student_id:0
+#: report:op.transport.detail.report:0
+msgid "Student Name"
+msgstr "学生姓名"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "bears a Good Moral character."
+msgstr "具有良好的道德品质。"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: selection:op.admission,state:0
+msgid "Pending"
+msgstr "推迟决定"
+
+#. module: openeducat_erp
+#: field:op.placement.offer,offer_package:0
+msgid "Offered Package"
+msgstr "福利待遇"
+
+#. module: openeducat_erp
+#: view:board.board:0
+msgid "Assignment Approved"
+msgstr "转让的批准"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_classroom
+msgid "op.classroom"
+msgstr "op.classroom"
+
+#. module: openeducat_erp
+#: selection:op.assignment.sub.history,state:0
+#: selection:op.assignment.sub.line,state:0
+#: view:op.book.purchase:0
+msgid "Accepted"
+msgstr "接受"
+
+#. module: openeducat_erp
+#: code:addons/openeducat_erp/op_book_movement/op_book_movement.py:135
+#: model:ir.actions.act_window,name:openeducat_erp.reserve_book_act
+#: view:reserve.book:0
+#, python-format
+msgid "Book Reservation"
+msgstr "典藏"
+
+#. module: openeducat_erp
+#: view:op.attendance.sheet:0
+#: field:op.attendance.sheet,total_absent:0
+msgid "Total Absent"
+msgstr "总缺席"
+
+#. module: openeducat_erp
+#: view:admission.analysis:0
+#: view:issue.book:0
+#: view:reserve.book:0
+#: view:return.book:0
+#: view:return.date:0
+#: view:student.hall.ticket:0
+#: view:student.migrate:0
+msgid "_Cancel"
+msgstr "_cancel"
+
+#. module: openeducat_erp
+#. openerp-web
+#: code:addons/openeducat_erp/static/src/xml/base.xml:11
+#, python-format
+msgid "Provided by"
+msgstr "提供的"
+
+#. module: openeducat_erp
+#: view:op.book.purchase:0
+msgid "Purchase Request"
+msgstr "采购申请"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_transportation
+msgid "op.transportation"
+msgstr "op.transportation"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.student,gr_no:0
+msgid "GR Number"
+msgstr "成绩"
+
+#. module: openeducat_erp
+#: field:op.health,regular_checkup:0
+msgid "Any Regular Checkup Required?"
+msgstr "是否需要定期检查？"
+
+#. module: openeducat_erp
+#: field:res.company,signature:0
+msgid "Signature"
+msgstr "签名"
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Batch:"
+msgstr "班次:"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_tag_sub
+#: view:op.book:0
+msgid "Tags"
+msgstr "标签"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_sub
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_sub_faculty
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_sub_parent
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_sub_student
+#: view:op.result.line:0
+#: view:op.standard:0
+msgid "Students"
+msgstr "学生"
+
+#. module: openeducat_erp
+#: view:op.all.student:0
+msgid "Add Absent Student Student(s)"
+msgstr "添加缺席的学生（的）"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_exam_room
+msgid "op.exam.room"
+msgstr "op.exam.room"
+
+#. module: openeducat_erp
+#: field:op.hostel.room,student_ids:0
+msgid "Allocated Students "
+msgstr "分配的学生"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: field:op.faculty,blood_group:0
+#: field:op.health,blood_group:0
+#: view:op.student:0
+#: field:op.student,blood_group:0
+msgid "Blood Group"
+msgstr "血型"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_session_view
+#: model:ir.model,name:openeducat_erp.model_op_exam_session
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_session
+#: field:op.exam,session_id:0
+#: view:op.marksheet.register:0
+#: field:op.result.template,exam_session_id:0
+#: field:op.result.template.line,exam_session_id:0
+#: field:student.hall.ticket,exam_session_id:0
+msgid "Exam Session"
+msgstr "考试期间"
+
+#. module: openeducat_erp
+#: view:admission.analysis:0
+msgid "Print Admission Analysis Report"
+msgstr "打印准分析报告"
+
+#. module: openeducat_erp
+#: view:op.classroom:0
+#: field:op.exam.room,capacity:0
+#: view:op.vehicle:0
+#: field:op.vehicle,capacity:0
+msgid "Capacity"
+msgstr "的能力"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+msgid "Re Submit Assignment"
+msgstr "重新提交作业"
+
+#. module: openeducat_erp
+#: view:book.request.queue:0
+msgid "Add"
+msgstr "添加"
+
+#. module: openeducat_erp
+#: selection:op.admission,state:0
+#: selection:op.assignment,state:0
+#: selection:op.assignment.sub.history,state:0
+#: selection:op.assignment.sub.line,state:0
+#: selection:op.book.purchase,state:0
+#: selection:op.marksheet.register,status:0
+#: selection:op.placement.offer,state:0
+#: selection:op.scholarship,state:0
+msgid "Draft"
+msgstr "草案"
+
+#. module: openeducat_erp
+#: field:op.min.clear.criteria,number:0
+msgid "Number of Failed Subject"
+msgstr "失败的对象数"
+
+#. module: openeducat_erp
+#: field:op.student,roll_number:0
+msgid "Current Roll Number"
+msgstr "目前的学号"
+
+#. module: openeducat_erp
+#: field:op.transportation,from1:0
+msgid "From"
+msgstr "从"
+
+#. module: openeducat_erp
+#: view:op.assignment:0
+#: field:op.assignment,assignment_sub_line:0
+msgid "Submissions"
+msgstr "提交"
+
+#. module: openeducat_erp
+#: view:op.timetable:0
+msgid "Faculty:"
+msgstr "学院："
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_exam_view
+#: view:op.exam:0
+#: field:op.exam,name:0
+#: view:op.exam.attendees:0
+#: field:op.exam.attendees,exam_id:0
+#: view:op.exam.res.allocation:0
+#: view:op.exam.session:0
+#: field:op.exam.session,name:0
+#: field:op.marksheet.register,exam_session_id:0
+#: field:op.result.exam.line,exam_id:0
+#: view:op.result.line:0
+#: field:op.result.line,exam_id:0
+msgid "Exam"
+msgstr "考试"
+
+#. module: openeducat_erp
+#: selection:op.course,evaluation_type:0
+#: selection:op.exam,evaluation_type:0
+msgid "Normal"
+msgstr "正常的"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.op_all_student_act
+msgid "Attandance Sheet Import"
+msgstr "值班表进口"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Result Summary"
+msgstr "结果总结"
+
+#. module: openeducat_erp
+#: field:op.admission,street2:0
+#: view:op.student:0
+msgid "Street2"
+msgstr "street2"
+
+#. module: openeducat_erp
+#: view:op.faculty:0
+#: view:op.student:0
+msgid "Library Detail"
+msgstr "图书馆细节"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_marksheet_register_sub
+msgid "Marksheet Registers"
+msgstr "成绩单寄存器"
+
+#. module: openeducat_erp
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,history_line:0
+msgid "Change History"
+msgstr "改变历史"
+
+#. module: openeducat_erp
+#: report:op.library.report:0
+msgid "Issue Date :"
+msgstr "签发日期："
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_batch
+msgid "op.batch"
+msgstr "op.batch"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_book_barcode
+msgid "Book Barcode"
+msgstr "本书条码"
+
+#. module: openeducat_erp
+#: selection:op.assignment.sub.history,state:0
+#: selection:op.assignment.sub.line,state:0
+msgid "Submitted"
+msgstr "提交"
+
+#. module: openeducat_erp
+#: report:op.exam.student.lable:0
+msgid "Standard :"
+msgstr "标准："
+
+#. module: openeducat_erp
+#: view:op.student:0
+msgid "Address Detail"
+msgstr "详细地址"
+
+#. module: openeducat_erp
+#: field:op.timetable,type:0
+msgid "Days"
+msgstr "天"
+
+#. module: openeducat_erp
+#: field:book.request.queue,date_to:0
+#: field:op.book.queue,date_to:0
+#: field:student.attendance,to_date:0
+msgid "To Date"
+msgstr "结束日期"
+
+#. module: openeducat_erp
+#: view:op.admission:0
+#: field:op.admission,middle_name:0
+#: view:op.faculty:0
+#: field:op.faculty,middle_name:0
+#: view:op.student:0
+#: field:op.student,middle_name:0
+msgid "Middle Name"
+msgstr "中间的名字"
+
+#. module: openeducat_erp
+#: field:op.student,alumni_boolean:0
+msgid "Alumni Student"
+msgstr "毕业生"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_assignment_sub_line
+msgid "op.assignment.sub.line"
+msgstr "op.assignment.sub.line"
+
+#. module: openeducat_erp
+#: field:op.period,sequence:0
+#: field:op.standard,sequence:0
+#: field:op.stop,sequence:0
+#: report:op.transport.detail.report:0
+msgid "Sequence"
+msgstr "序列"
+
+#. module: openeducat_erp
+#: field:generate.roll.number,prefix:0
+msgid "Prefix"
+msgstr "前缀"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_book_sub
+#: view:op.author:0
+#: field:op.author,book_ids:0
+#: view:op.book.queue:0
+msgid "Books"
+msgstr "本书"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Vehicle Detail"
+msgstr "车辆细节"
+
+#. module: openeducat_erp
+#: view:generate.roll.number:0
+#: view:generate.time.table:0
+#: view:student.attendance:0
+#: view:time.table.report:0
+msgid "Close"
+msgstr "关闭"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Route Name:"
+msgstr "路线名称："
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "To:"
+msgstr "对："
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_transportation_sub
+msgid "Transportations"
+msgstr "运输"
+
+#. module: openeducat_erp
+#: field:student.migrate,from_standard_id:0
+msgid "From Standard"
+msgstr "从标准"
+
+#. module: openeducat_erp
+#: view:op.result.template:0
+msgid "Session Templates"
+msgstr "会话模板"
+
+#. module: openeducat_erp
+#: selection:gen.time.table.line,day:0
+#: view:generate.time.table:0
+#: selection:op.timetable,type:0
+msgid "Thursday"
+msgstr "星期四"
+
+#. module: openeducat_erp
+#: view:op.book:0
+msgid "Education Details"
+msgstr "教育细节"
+
+#. module: openeducat_erp
+#: field:op.library.card,issue_date:0
+msgid "Issue Date"
+msgstr "签发日期"
+
+#. module: openeducat_erp
+#: view:board.board:0
+#: model:ir.actions.act_window,name:openeducat_erp.open_board_student
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_dashboard
+msgid "Student Dashboard"
+msgstr "学生的仪表板"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "Cost:"
+msgstr "成本："
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_book_movement_view
+#: view:op.book.movement:0
+msgid "Book Movement"
+msgstr "本书的运动"
+
+#. module: openeducat_erp
+#: field:op.admission,gr_no_old:0
+msgid "GR Number old"
+msgstr "原来的成绩"
+
+#. module: openeducat_erp
+#: view:op.book.movement:0
+msgid "Reserve Book"
+msgstr "储备的书"
+
+#. module: openeducat_erp
+#: view:op.achievement:0
+#: field:op.achievement,description:0
+#: field:op.assignment,description:0
+#: view:op.assignment.sub.history:0
+#: field:op.assignment.sub.history,description:0
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,description:0
+#: view:op.book:0
+msgid "Description"
+msgstr "描述"
+
+#. module: openeducat_erp
+#: constraint:op.exam:0
+#: constraint:op.exam.session:0
+msgid "Start Time Should be greater than End Time ."
+msgstr "开始时间应大于结束时间。"
+
+#. module: openeducat_erp
+#: selection:op.period,minute:0
+msgid "45"
+msgstr "45"
+
+#. module: openeducat_erp
+#: constraint:op.hostel.room:0
+msgid "Room capacity Over."
+msgstr "室容量。"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_student_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_school_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_main_parent
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_main_student
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_student_root
+#: field:issue.book,student_id:0
+#: selection:issue.book,type:0
+#: view:op.achievement:0
+#: field:op.achievement,student_id:0
+#: field:op.activity,student_id:0
+#: field:op.admission,student_id:0
+#: view:op.allocat.division:0
+#: view:op.assignment.sub.line:0
+#: field:op.assignment.sub.line,student_id:0
+#: view:op.attendance.line:0
+#: field:op.attendance.line,student_id:0
+#: view:op.book.movement:0
+#: field:op.book.movement,student_id:0
+#: selection:op.book.movement,type:0
+#: field:op.book.purchase,student_id:0
+#: field:op.exam.attendees,student_id:0
+#: view:op.exam.res.allocation:0
+#: field:op.exam.res.allocation,student_ids:0
+#: view:op.exam.room:0
+#: field:op.health,student_id:0
+#: view:op.marksheet.line:0
+#: field:op.marksheet.line,student_id:0
+#: field:op.result.line,student_id:0
+#: view:op.roll.number:0
+#: field:op.roll.number,student_id:0
+#: view:op.scholarship:0
+#: field:op.scholarship,student_id:0
+#: view:op.student:0
+#: model:res.groups,name:openeducat_erp.group_op_student
+#: selection:time.table.report,state:0
+msgid "Student"
+msgstr "学生"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_all_student
+msgid "op.all.student"
+msgstr "op.all.student"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_achievement_view
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_achievement_main
+#: view:op.achievement:0
+#: view:op.attendance.line:0
+msgid "Achievement"
+msgstr "成就"
+
+#. module: openeducat_erp
+#: report:op.transport.detail.report:0
+msgid "From:"
+msgstr "从："
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_book_purchase
+msgid "op.book.purchase"
+msgstr "op.book.purchase"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_return_book
+msgid "return.book"
+msgstr "return.book"
+
+#. module: openeducat_erp
+#: selection:issue.book,state:0
+#: selection:op.book,state:0
+#: selection:op.book.movement,state:0
+msgid "Lost"
+msgstr "失去了"
+
+#. module: openeducat_erp
+#: view:time.table.report:0
+msgid "Select Teacher/Student"
+msgstr "选择教师\/学生"
+
+#. module: openeducat_erp
+#: field:op.admission,gender:0
+#: field:op.faculty,gender:0
+#: field:op.student,gender:0
+msgid "Gender"
+msgstr "性别"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_route_view
+#: view:op.route:0
+msgid "Route"
+msgstr "路线"
+
+#. module: openeducat_erp
+#: selection:op.period,am_pm:0
+msgid "AM"
+msgstr "上午"
+
+#. module: openeducat_erp
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_main
+#: model:ir.ui.menu,name:openeducat_erp.menu_op_exam_main_faculty
+#: field:op.exam.session,exam_ids:0
+msgid "Exams"
+msgstr "考试"
+
+#. module: openeducat_erp
+#: model:ir.actions.report.xml,name:openeducat_erp.report_op_student
+msgid "Student IDcard"
+msgstr "学生身份证"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_scholarship
+msgid "op.scholarship"
+msgstr "op.scholarship"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_attendance_line
+msgid "op.attendance.line"
+msgstr "op.attendance.line"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.act_open_op_marksheet_line_view
+#: view:op.marksheet.line:0
+#: view:op.result.line:0
+#: field:op.result.line,marksheet_line_id:0
+msgid "Marksheet Line"
+msgstr "成绩单线"
+
+#. module: openeducat_erp
+#: field:op.book.movement,partner_id:0
+msgid "Person"
+msgstr "的人"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_op_roll_number
+msgid "op.roll.number"
+msgstr "op.roll.number"
+
+#. module: openeducat_erp
+#: field:op.course,payment_term:0
+#: field:op.standard,payment_term:0
+msgid "Payment Term"
+msgstr "付款方式"
+
+#. module: openeducat_erp
+#: view:op.book:0
+#: selection:op.book.purchase,state:0
+#: view:op.book.queue:0
+#: selection:op.book.queue,state:0
+msgid "Accept"
+msgstr "接受"
+
+#. module: openeducat_erp
+#: model:ir.model,name:openeducat_erp.model_return_date
+msgid "return.date"
+msgstr "return.date"
+
+#. module: openeducat_erp
+#: report:op.marksheet:0
+msgid "Exam Code:"
+msgstr "检查代码："
+
+#. module: openeducat_erp
+#: field:op.admission,street:0
+msgid "Street"
+msgstr "街"
+
+#. module: openeducat_erp
+#: model:ir.actions.act_window,name:openeducat_erp.return_book_act
+#: view:op.book:0
+#: view:op.book.movement:0
+msgid "Return Book"
+msgstr "还书"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "Year"
+msgstr "年"
+
+#. module: openeducat_erp
+#: report:student.bonafide.certificate:0
+msgid "PRINCIPAL"
+msgstr "主"
+
+
