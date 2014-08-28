@@ -688,7 +688,8 @@ class WebClient(openerpweb.Controller):
         # sub-languages (that should only be partially translated) we load the
         # main language PO instead - that should be enough for the login screen.
         lang = req.lang.split('_')[0]
-
+        u=req.session.model('res.users').search([("id","=",1)])
+        print u
         translations_per_module = {}
         for addon_name in mods:
             if openerpweb.addons_manifest[addon_name].get('bootstrap'):
